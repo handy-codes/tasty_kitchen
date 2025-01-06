@@ -8,18 +8,36 @@ body{
 
 /* head section start */
 header{
+    height: 70px;
+    background-color: #003E8F;
     position: sticky;
     top: 0;
     right: 0;
     z-index: 999;
-    background-color: #003E8F;
 }
 
 .logo img{
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    object-fit: cover;
 }
+
+.logo h1{
+    font-size: 25px;
+    line-height: 25px;
+}
+
+
+.links a{
+    padding: 7px 13px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
 
 nav{
     color: white;
@@ -28,7 +46,6 @@ nav{
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
-    height: 70px;
 }
 
 #check{
@@ -42,19 +59,7 @@ nav{
 }
 
 
-.logo h1{
-    font-size: 25px;
-    line-height: 25px;
-}
 
-.links a{
-    padding: 7px 13px;
-    border-radius: 3px;
-    color: white;
-    text-decoration: none;
-    margin-right: 10px;
-    font-size: 15px;
-}
 
 .links a.active, a:hover{
     background: #1b9bff;
@@ -63,6 +68,11 @@ nav{
 
 .checkbtn{
     display: none;
+}
+
+.menu{
+    width: 20px;
+    height: 20px;
 }
 /* head section ends */
 
