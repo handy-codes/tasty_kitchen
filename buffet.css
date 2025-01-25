@@ -28,6 +28,7 @@ header{
     line-height: 25px;
 }
 
+
 .links a{
     padding: 7px 13px;
     border-radius: 3px;
@@ -36,6 +37,7 @@ header{
     margin-right: 10px;
     font-size: 15px;
 }
+
 
 nav{
     color: white;
@@ -55,6 +57,9 @@ nav{
     align-items: center;
     gap: 18px;
 }
+
+
+
 
 .links a.active, a:hover{
     background: #1b9bff;
